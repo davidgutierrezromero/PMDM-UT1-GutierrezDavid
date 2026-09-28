@@ -17,9 +17,11 @@
         android:src="@drawable/ic_smartphone"
         app:layout_constraintBottom_toTopOf="@id/textTitulo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/icono_dado" />
 
     <TextView
         android:id="@+id/textTitulo"
